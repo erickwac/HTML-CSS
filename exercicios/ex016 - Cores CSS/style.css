@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to top,#01568C,#036F8C,#048C80,#07A77B,#06BF7C);
+}
+
+main{
+    background-color: white;
+    border-radius: 60px;    /*Deixa mais redondo o background*/
+    box-shadow: 5px 5px 15px rgba(1, 50, 80, 0.527); /* Coloca bordas com sombra ( locamento lateral, locamento pra baixo, espalhamento da sombra e cor) */
+    width: 600px; /*Aumenta/Diminui o tamanho do conteúdo*/
+    padding: 10px; /*Aumenta as bordas do background*/
+    margin: auto; /*Sempre vai deixar ele centralizado*/
+}
+
+h1 {
+    color: #01568C;
+    text-align: center; /*Centraliza o texto*/
+    text-shadow: 1px 1px 3px #02325077;/*mesma ideia do box-shadow, só que aqui com as letras*/
+}
+
+h2{
+    color:#06BF7C ;
+}
+
+p{
+    text-align: justify;
+}

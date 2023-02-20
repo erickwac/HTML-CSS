@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /*box-level*/
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            /*
+            border-width: 10px; -->Espessura da borda
+            border-style: solid;
+            border-color: darkslategray;
+
+            Shorthand abaixo tudo na ordem só que na mesma linha:
+            */
+
+            border: 10px solid darkslategrey;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            Shorthand abaixo:
+            */
+
+            padding: 10px; /*quando é tudo igual só coloca uma modificação para todos, caso for duas vai ser primeiro para cima e baixo e o segundo para direita e esquerda*/
+
+            /*margin: auto; para centralizar a box-level, mesmo diminuindo a aba ou aumentando*/
+
+            /*
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            
+            Shorthand abaixo:
+            */
+
+            margin: 20px auto 40px auto; /*auto para centralizar*/
+            
+            /*Trasejado que está dentro da margem
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            
+            Shorthand abaixo:
+            */
+
+            outline: 5px dashed salmon;
+        }
+
+        a{  /*inline-level*/
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

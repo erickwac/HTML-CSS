@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+body{
+    background-color: #82D9A0;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: normal;
+}
+header{
+    background-image: linear-gradient(to top,#1A5C37,#3BD27F);
+    padding-bottom: 5px;
+    
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 0px;
+    padding: 25px;
+   
+}
+#ph1{
+    color: rgb(204, 204, 204);
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main{
+    margin: 0px 16%;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.308);
+}
+.verdao {
+    color: #216d45;
+    font-weight: bolder;
+}
+h2{
+   font-family: 'idroid';
+   
+   color: #1B5C39;
+   margin: 0px;
+   padding: 22px 18px 0px 18px;
+}
+
+h3{
+    font-family: 'idroid';
+    color: #1B5C39;
+    padding: 0px 18px 0px 18px;
+    text-indent: 1em;
+    background-image: linear-gradient(to right,#1A5C37,#3BD27F);
+}
+p{
+    text-indent: 2em;
+    padding: 0px 18px 0px 18px;
+    margin-bottom: 0px;
+}
+p#video{
+    background-color: #1B5C39;
+    text-align: center;
+    margin: 0px 16%;
+    padding: 30px 0px 30px 0px;
+    
+   
+}
+img{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+footer{
+    color: white;
+    font-style: italic;
+    background-color: #1B5C39;
+    text-align: center;
+}

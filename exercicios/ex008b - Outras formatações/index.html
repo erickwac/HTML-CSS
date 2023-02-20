@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+        <h2>Código-fonte / Pré-formatação</h2>
+            <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+            <pre>
+                <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('Fim do programa')
+                </code>
+            </pre>
+            <p><strong>Observações:</strong> Envelopando com a tag "code" dentro da tag "p", a fonte fica Monoespaçada </p>
+            <p>Envelopando com a tag "pre" dentro da tag "p", tudo que estiver dentro da tag vai ser espaçado e
+            vai ter quebras de linha, exatamente como está no seu código.</p>
+            <P>Para diminuir os espaçamentos das palavras/frases que escreveu basta selecionar todas elas e aperta SHIFT + TAB caso contrario TAB para aumentar o espaçamento. </P>
+
+        <h2>Citações</h2>
+            <p>Como diria o pai de um amigo:<q> o computador é um burro muito rápido</q>(Tag q).</p>
+
+        <h2>Citações completas</h2>
+            <blockquote cite="http://developer.mozilla.org">
+                    Está é uma citação tirada da
+                    Mozilla Developer Center
+            </blockquote>
+            <p>Com a Tag blockquote faz a formatação de citação em blocos, vai aparecer deslocada mais para o centro.
+            </p>
+            <p>Junto com a tag blockquote tem o parametro "cite", "blockquote cite" assim colocando a URL de  onde você tirou essa citação, aparecendo só no seu código.</p>
+
+        <h2>Abreviações</h2>
+            <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+            <p>Envelopando as siglas como por exemplo "HTML" e "CSS" usando a tag "abbr", você escreve o significado da sigla. Quando você passa o mouse nessas siglas ele mostra o significado das siglas.</p>
+        
+        <h2>Texto invertido</h2>
+            <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+            <p>Envelopando com a tag "bdo" dentro da tag "p" o texto vai ser invertido. Na hora de envelopar ele te pede em qual direção você quer inverter como por exemplo "rtl"(right to left, direita pra esquerda) ou "ltr"(left to right, esquerda pra direita).</p>
+
+</body>
+</html>

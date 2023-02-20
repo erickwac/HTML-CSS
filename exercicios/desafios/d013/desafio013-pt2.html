@@ -11,11 +11,10 @@
         }
 
         table {
-            border-collapse: collapse;
             width: 300px;
         }
 
-        td {
+        td { 
             border: 1px solid black;
             padding: 10px;
             text-align: center;
@@ -23,30 +22,29 @@
     </style>
 </head>
 <body>
-    <h1>Mesclagem de Células</h1>
     <table>
         <tr>
-            <td>A</td>
-            <td colspan="2">B</td><!--PARA OCUPAR 2 LINHA-->
-            
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
         </tr>
-
         <tr>
-            <td rowspan="3">D</td> <!--PARA OCUPAR 3 COLUNA-->
+            <td rowspan="4">C</td>
+            <td>D</td>
             <td>E</td>
-            <td rowspan="2">F</td>
+            <td>F</td>
         </tr>
-
         <tr>
-            
+            <td>G</td>
             <td>H</td>
-            
+            <td>I</td>
         </tr>
-
         <tr>
-            
-            <td colspan="2">K</td>
-            
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td colspan="4">M</td>
         </tr>
     </table>
 </body>

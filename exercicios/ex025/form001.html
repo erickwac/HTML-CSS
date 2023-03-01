@@ -12,8 +12,8 @@
     </style>
 </head>
 <body>
-    <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off"> <!--PARA TIRAR O AUTOCOMPLETAR-->
+    <h1>Meu primeiro formulário</h1> <!--GET PARA APARECER NA URL (NO MAX 3KB), POST PARA NÃO APARECER NA URL MAS NÃO 100%, PARA PROTEGER MELHOR OS DADOS ESTUDAR HTTPS NO FUTURO-->
+    <form action="cadastro.php" method="post" autocomplete="off"> <!--PARA TIRAR O AUTOCOMPLETAR-->
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> 
